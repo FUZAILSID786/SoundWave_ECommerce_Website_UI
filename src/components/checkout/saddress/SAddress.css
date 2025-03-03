@@ -1,0 +1,25 @@
+.saddress-cont{
+    display: flex;
+    justify-content: center;
+}
+.saddress-div{
+    background-color: #edf1f4;
+    width: 43.5%;
+    padding: 1.5rem 1rem;
+    margin-top: -2.5rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px;
+}
+
+.movetonext{
+    background-color: #18355e;
+    color: white;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-family: "Poppins";
+    cursor: pointer;
+    margin-top: 1rem;
+}

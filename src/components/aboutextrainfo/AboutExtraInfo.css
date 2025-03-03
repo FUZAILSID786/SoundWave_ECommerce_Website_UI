@@ -1,0 +1,20 @@
+.extra-info-container{
+    display: flex;
+    justify-content: center;
+}
+
+.extra-info{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0rem 5rem 0rem;
+}
+
+.extra-info p{
+    width: 75%;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+}

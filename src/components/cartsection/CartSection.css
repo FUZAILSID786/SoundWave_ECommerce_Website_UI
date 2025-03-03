@@ -1,0 +1,148 @@
+.c-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.c-header{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.c-header p{
+    font-weight: bold;
+    font-family: "Poppins";
+}
+
+.cart-data-details-cont{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins";
+}
+
+.cart-data-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.8rem;
+    width: 75%;
+    background-color: #edf1f4;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 0px 19px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-data-first-div{
+    display: flex;
+    align-items: center;
+}
+
+.cart-data-first-div p{
+    font-size: 15px;
+}
+
+.cart-data-first-div img{
+    height: 100px;
+}
+
+.cart-data-second-div p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #2596be;
+}
+
+.cart-data-third-div button{
+    padding: .3rem .8rem;
+    font-size: 15px;
+    background: none;
+    outline: none;
+    border: 2px solid #2596be;
+}
+
+.cart-data-fourth-div{
+    margin-right: .4rem;
+}
+
+#first_btn{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-right: none;
+    background-color: #fff;
+}
+
+#center_btn{
+    border-right: none;
+    border-left: none;
+    background-color: #fff;
+}
+
+#last_btn{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-left: none;
+    background-color: #fff;
+}
+
+.emptyCart h1{
+    font-family: "Poppins";
+    text-align: center;
+    color: black;
+    margin-top: 2rem;
+}
+
+.continue-shopping{
+    display: flex;
+    justify-content: center;
+}
+
+.continue-shopping button{
+    background-color: #18355e;
+    color: #fff;
+    font-family: "Poppins";
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: .6rem 1.2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.image-inside-title{
+    margin-left: 1rem;
+}
+
+.cart_price_container{
+    display: flex;
+    justify-content: center;
+}
+
+.cartprice{
+    width: 78%;
+    margin: 1rem 0rem 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartprice p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Poppins";
+}
+
+.cartprice button{
+    padding: .4rem 1.3rem;
+    border: none;
+    outline: none;
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    font-family: "Poppins";
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.ppp{
+    color: #2596be;
+}

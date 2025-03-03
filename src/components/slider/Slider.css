@@ -1,0 +1,32 @@
+.slider {
+    height: 300px;
+    width: 100%;
+    background-color: #e8ecef;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.slider-box img {
+    height: 200px;
+    cursor: pointer;
+}
+
+.info-box p {
+    font-size: 40px;
+    font-family: "Poppins";
+    color: #18355e;
+}
+
+.info-box button {
+    font-family: "Poppins";
+    padding: 0.6rem 3rem;
+    margin-top: .7rem;
+    background-color: #18355e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}

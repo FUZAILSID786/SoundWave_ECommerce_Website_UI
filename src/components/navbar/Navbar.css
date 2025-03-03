@@ -1,0 +1,84 @@
+.navbar{
+    background-color: #222222;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    margin-top: 0.2rem;
+}
+
+.logo img{
+    width: 75px;
+    cursor: pointer;
+}
+
+.links a{
+    font-family: "Poppins";
+    text-decoration: none;
+    margin-left: 1rem;
+    color: white;
+}
+
+.links a:hover{
+    color: #7591b8;
+    transition: all 0.3s ease-in-out;
+}
+
+.icons{
+    filter: invert();
+    cursor: pointer;
+    position: relative;
+}
+.icons a{
+    color: black;
+}
+
+.icons sup{
+    position: absolute;
+    right: -25%;
+    top: -21%;
+    background-color: black;
+    color: white;
+    font-family: "Poppins";
+    padding: 0rem .3rem;
+    border-radius: 50%;
+    font-size: 11px;
+}
+
+.authBtns button{
+    padding: 0.5rem 1rem;
+    font-family: "Poppins";
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    margin-left: 1rem;
+    border-radius: 6px;
+}
+
+.authBtns button:hover{
+    background-color: #18355e;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.logoutbtn{
+    padding: 0.5rem 1rem;
+    font-family: "Poppins";
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    margin-left: 1rem;
+    border-radius: 6px;
+}
+.logoutbtn:hover{
+    background-color: #18355e;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}

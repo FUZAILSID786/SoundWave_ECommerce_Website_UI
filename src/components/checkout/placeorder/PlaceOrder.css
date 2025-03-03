@@ -1,0 +1,33 @@
+.place-order-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.place-or{
+    background-color: #edf1f4;
+    width: 40.6%;
+    padding: 2rem 1rem;
+    margin-top: -4.95rem;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.backtohome-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.backtohome-cont button{
+    background-color: #18355e;
+    color: white;
+    padding: .85rem 14.8rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-family: "Poppins";
+    cursor: pointer;
+    margin-top: .2rem;
+    letter-spacing: 0.06rem;
+}

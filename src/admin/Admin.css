@@ -1,0 +1,43 @@
+.listMainContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.firstlink,
+.secondlink,
+.thirdlink,
+.fourthlink,
+.fifthlink,
+.sixthlink {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    cursor: pointer;
+}
+
+.firstlink p,
+.secondlink p,
+.thirdlink p,
+.fourthlink p,
+.fifthlink p,
+.sixthlink p {
+    margin-left: 0.8rem;
+    font-size: 16px;
+}
+
+.dashboardLogoContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.3rem;
+    width: 100%;
+}
+
+.dashboardLogo{
+    margin-left: 1rem;
+}
+
+.dashboardLogo img{
+    height: 52px;
+    width: 115px;
+}
